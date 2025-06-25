@@ -1,20 +1,21 @@
 # ChatGPT Scrollie Extension
 
-> **Automatically fix scrolling issues in ChatGPT's chat sidebar for seamless navigation through your conversation history.**
+> **Automatically fix scrolling issues in ChatGPT's chat sidebar and project folders for seamless navigation through your conversations and projects.**
 
 ## 🎯 Project Goal
 
-The **ChatGPT Scrollie Extension** is a lightweight Chrome browser extension that solves a common usability problem: **difficulty scrolling through ChatGPT's chat sidebar** when you have many conversations.
+The **ChatGPT Scrollie Extension** is a lightweight Chrome browser extension that solves common usability problems: **difficulty scrolling through ChatGPT's chat sidebar and project folders** when you have many conversations and projects.
 
 ### What Problem Does This Solve?
 
-Have you ever noticed that the ChatGPT chat list sidebar becomes hard to scroll through, especially when you have lots of conversations? This extension automatically fixes that scrolling issue, giving you smooth navigation through your entire chat history.
+Have you ever noticed that ChatGPT's interface becomes hard to scroll through, especially in the chat list sidebar and project folders when you have lots of conversations and projects? This extension automatically fixes these scrolling issues, giving you smooth navigation through your entire chat history and project collections.
 
 ## ✨ Key Features
 
 - 🔄 **Automatic Operation** - Works silently in the background, no user interaction needed
 - ⚡ **Instant Fix** - Applies scrolling improvements as soon as ChatGPT loads
 - 🎯 **Smart Detection** - Monitors page changes and reapplies fixes when needed
+- 📁 **Dual Support** - Fixes scrolling in both chat sidebar and project folders
 - 🔒 **Privacy-First** - No data collection, works entirely on your computer
 - 🪶 **Lightweight** - Minimal impact on browser performance
 
@@ -22,7 +23,7 @@ Have you ever noticed that the ChatGPT chat list sidebar becomes hard to scroll 
 
 The extension automatically:
 
-1. **Detects** the ChatGPT chat sidebar container
+1. **Detects** the ChatGPT chat sidebar and project folder containers
 2. **Applies** CSS fixes to enable proper vertical scrolling
 3. **Monitors** for page changes and reapplies fixes as needed
 4. **Provides** console feedback for debugging (optional)
@@ -72,7 +73,7 @@ The extension works **automatically** once installed:
 1. Navigate to ChatGPT
 2. Log in to your account
 3. The extension automatically fixes any scrolling issues
-4. Enjoy smooth navigation through your chat history!
+4. Enjoy smooth navigation through your chat history and project folders!
 
 ## 🔐 Privacy & Security
 
@@ -99,7 +100,9 @@ chatgpt-scrollie-extension/
 ├── README.md              # This file
 ├── manifest.json          # Extension configuration
 ├── background.js          # Service worker (minimal)
-├── scrollie.js          # Main content script
+├── scrollie.js           # Main content script
+├── icon-small.png        # Extension icon
+├── LICENSE               # MIT License
 └── docs/                 # Documentation
     ├── user_manual.md    # Installation & usage guide
     ├── project_goal.md   # Project objectives
