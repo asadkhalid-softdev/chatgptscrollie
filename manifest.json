@@ -5,6 +5,12 @@
   "description": "Automatically fixes scrolling issues in ChatGPT chat sidebar for better navigation",
   "permissions": [],
   "host_permissions": ["https://chatgpt.com/*", "https://chat.openai.com/*"],
+  "icons": {
+    "16": "icon-small.png",
+    "32": "icon-small.png",
+    "48": "icon-small.png",
+    "128": "icon-small.png"
+  },
   "background": {
     "service_worker": "background.js"
   },
