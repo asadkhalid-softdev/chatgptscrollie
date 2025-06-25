@@ -1,0 +1,1 @@
+// Empty background.js – required for manifest_version 3

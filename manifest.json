@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Scrollie",
+  "version": "1.2",
+  "description": "Automatically fixes scrolling issues in ChatGPT chat sidebar for better navigation",
+  "permissions": [],
+  "host_permissions": ["https://chatgpt.com/*", "https://chat.openai.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*", "https://chat.openai.com/*"],
+      "js": ["scrollie.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
