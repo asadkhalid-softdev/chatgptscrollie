@@ -104,8 +104,7 @@ chatgpt-scrollie-extension/
 ├── LICENSE               # MIT License
 └── docs/                 # Documentation
     ├── user_manual.md    # Installation & usage guide
-    ├── project_goal.md   # Project objectives
-    └── current_progress.md # Development status
+    └── project_goal.md   # Project objectives
 ```
 
 ## 🤝 Contributing
