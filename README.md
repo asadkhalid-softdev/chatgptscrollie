@@ -59,7 +59,6 @@ The extension automatically:
 
 - **[📋 User Manual](docs/user_manual.md)** - Complete installation and usage guide
 - **[🎯 Project Goal](docs/project_goal.md)** - Detailed project objectives and technical specs
-- **[📊 Current Progress](docs/current_progress.md)** - Development status and updates
 
 ## 🌐 Supported Websites
 
